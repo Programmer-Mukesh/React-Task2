@@ -1,0 +1,12 @@
+.footerContainer3 {
+  padding-top: 1.5rem;
+  display: grid;
+  height: 260px;
+  grid-template-columns: 27% 73%;
+}
+
+.descriptionPara {
+  color: rgb(158, 157, 157);
+  font-size: 14.5px;
+  padding-right: 2rem;
+}

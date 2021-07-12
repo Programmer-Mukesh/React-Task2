@@ -1,0 +1,14 @@
+.footerContainer1 {
+  margin-top: 7rem;
+  display: grid;
+  height: 180px;
+  grid-template-columns: 27% 27% 46%;
+}
+
+.gridItem1 {
+  padding-left: 1.3rem;
+}
+
+.container2Item1 {
+  padding-left: 1rem;
+}
