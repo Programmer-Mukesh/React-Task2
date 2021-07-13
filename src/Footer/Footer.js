@@ -1,15 +1,11 @@
 import React from "react";
 import "./Footer.css";
-import FooterContainer1 from "./FooterContainer1/FooterContainer1";
-import FooterContainer2 from "./FooterContainer2/FooterContainer2";
-import FooterContainer3 from "./FooterContainer3/FooterContainer3";
+import GridItems from "./GridItems";
 
-const Footer = () => (
-  <div className="footer">
-    <FooterContainer1 />
-    <FooterContainer2 />
-    <FooterContainer3 />
+const FooterContainer1 = () => (
+  <div>
+    <GridItems />
   </div>
 );
 
-export default Footer;
+export default FooterContainer1;
