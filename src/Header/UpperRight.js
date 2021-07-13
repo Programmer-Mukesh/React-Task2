@@ -15,13 +15,7 @@ class UpperRight extends Component {
   }
 
   render() {
-    const { 
-      text1, 
-      text2, 
-      text3, 
-      text4, 
-      text5 
-    } = this.state;
+    const { text1, text2, text3, text4, text5 } = this.state;
 
     return (
       <div className="upperRight">
