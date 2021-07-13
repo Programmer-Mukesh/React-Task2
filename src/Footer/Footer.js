@@ -2,10 +2,10 @@ import React from "react";
 import "./Footer.css";
 import GridItems from "./GridItems";
 
-const FooterContainer1 = () => (
+const Footer = () => (
   <div>
     <GridItems />
   </div>
 );
 
-export default FooterContainer1;
+export default Footer;
