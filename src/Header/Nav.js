@@ -1,14 +1,34 @@
 import React, { Component } from "react";
 import "./Nav.css";
-import NavLeft from "./NavLeft";
-import NavRight from "./NavRight";
 
 class Nav extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      leftItems: ["Children", "Seniors", "Pets", "Home", "Military Families"],
+      rightItems: ["Advice", "Payments", "Safety", "Message", "MyCare.com"],
+    };
+  }
+
   render() {
+    const { leftItems, rightItems } = this.state;
     return (
       <div className="nav">
-        <NavLeft />
-        <NavRight />
+        <div className="navLeft">
+          {leftItems.map((x, index) => (
+            <a href="#" className="menuLeft" key={index}>
+              {x}
+            </a>
+          ))}
+        </div>
+        <div className="navRight">
+          {rightItems.map((x, index) => (
+            <a href="#" className="menuRight" key={index}>
+              {x}
+            </a>
+          ))}
+        </div>
       </div>
     );
   }
